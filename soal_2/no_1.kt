@@ -6,7 +6,7 @@ fun main() {
 
     fun inputNilai(mataPelajaran: String): Int {
         while (true) {
-            println("Masukkan nilai $mataPelajaran (0-100): ")
+            println("$mataPelajaran : ")
             val input = readLine()
             val nilai = input?.toIntOrNull()
 
